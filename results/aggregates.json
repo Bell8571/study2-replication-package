@@ -1,0 +1,159 @@
+{
+ "n_units": 36,
+ "n_runs_harvested": 135,
+ "n_runs_scorable": 134,
+ "n_runs_coverage_gap": 1,
+ "pass1_units": {
+  "1": 21,
+  "2a": 14,
+  "2b": 1,
+  "3": 0
+ },
+ "pass1_runs": {
+  "1": 84,
+  "2a": 49,
+  "2b": 1,
+  "3": 0
+ },
+ "final_units": {
+  "1": 31,
+  "2a": 4,
+  "2b": 1,
+  "3": 0
+ },
+ "final_runs": {
+  "1": 120,
+  "2a": 13,
+  "2b": 1,
+  "3": 0
+ },
+ "pass1_residual": {
+  "units": 15,
+  "runs": 50
+ },
+ "final_residual": {
+  "units": 5,
+  "runs": 14
+ },
+ "strict_bound": {
+  "units": 6,
+  "runs": 16
+ },
+ "addendum4_newly_guarded_net": {
+  "units": 10,
+  "runs": 36
+ },
+ "reach_floor": {
+  "units": 1,
+  "runs": 1
+ },
+ "reach_ceiling": {
+  "units": 1,
+  "runs": 1
+ },
+ "bucket3": {
+  "units": 0,
+  "runs": 0
+ },
+ "contributor_sensitivity": {
+  "runs": 17,
+  "human": 11,
+  "bot": 6
+ },
+ "contributor_relaxed_reach": {
+  "runs": 6,
+  "units": 2
+ },
+ "bot_sensitivity_runs": 6,
+ "bot_runs_total": 15,
+ "contributor_write_access_unverified_runs": 5,
+ "final_guarded_mechanisms_exclusive": {
+  "explicit_check": 3,
+  "no_prompt_path": 10,
+  "vendor_default": 10,
+  "vendor_default+explicit_check": 7,
+  "vendor_default+no_prompt_path": 1
+ },
+ "final_guarded_mechanisms_incidence": {
+  "vendor_default": 18,
+  "explicit_check": 10,
+  "no_prompt_path": 11
+ },
+ "guarded_no_in_scope_outsider_trigger": 9,
+ "pass1_guarded_by_family": {
+  "claude": 10,
+  "claude-cli": 3,
+  "codex": 2,
+  "gemini": 6
+ },
+ "irr_sample": {
+  "not_drawn": 21,
+  "selected": 12,
+  "remainder": 3
+ },
+ "guarded_never_second_coded": 23,
+ "final_by_family_units": {
+  "claude": {
+   "1": 10,
+   "2a": 0,
+   "2b": 0,
+   "3": 0
+  },
+  "claude-cli": {
+   "1": 4,
+   "2a": 1,
+   "2b": 0,
+   "3": 0
+  },
+  "codex": {
+   "1": 10,
+   "2a": 0,
+   "2b": 0,
+   "3": 0
+  },
+  "codex-cli": {
+   "1": 0,
+   "2a": 1,
+   "2b": 0,
+   "3": 0
+  },
+  "gemini": {
+   "1": 7,
+   "2a": 2,
+   "2b": 1,
+   "3": 0
+  }
+ },
+ "final_by_family_runs": {
+  "claude": {
+   "1": 40,
+   "2a": 0,
+   "2b": 0,
+   "3": 0
+  },
+  "claude-cli": {
+   "1": 13,
+   "2a": 2,
+   "2b": 0,
+   "3": 0
+  },
+  "codex": {
+   "1": 38,
+   "2a": 0,
+   "2b": 0,
+   "3": 0
+  },
+  "codex-cli": {
+   "1": 0,
+   "2a": 1,
+   "2b": 0,
+   "3": 0
+  },
+  "gemini": {
+   "1": 29,
+   "2a": 10,
+   "2b": 1,
+   "3": 0
+  }
+ }
+}

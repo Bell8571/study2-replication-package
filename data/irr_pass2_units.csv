@@ -1,0 +1,13 @@
+unit_label,family,primary_unit_bucket,coder2_unit_bucket,primary_gate_mechanism,coder2_gate_mechanism
+U05,gemini,2a,2a,,
+U08,claude-cli,1,2a,no_prompt_path,
+U09,gemini,1,2a,no_prompt_path,
+U10,codex,1,1,vendor_default,vendor_default
+U12,codex,1,1,vendor_default+explicit_check,vendor_default+explicit_check
+U15,gemini,2b,2b,,
+U17,codex,1,1,vendor_default+no_prompt_path,vendor_default+no_prompt_path
+U18,codex,1,1,vendor_default,vendor_default
+U22,codex,1,1,vendor_default,vendor_default
+U28,codex,1,1,vendor_default+explicit_check,vendor_default+explicit_check
+U30,codex,1,1,vendor_default+explicit_check,vendor_default+explicit_check
+U34,codex-cli,2a,2a,,

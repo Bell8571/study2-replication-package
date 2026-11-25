@@ -1,0 +1,13 @@
+unit_label,family,primary_unit_bucket,coder2_unit_bucket
+U05,gemini,2a,2a
+U08,claude-cli,2a,1
+U09,gemini,2a,1
+U10,codex,2a,1
+U12,codex,2a,1
+U15,gemini,2b,2b
+U17,codex,2a,1
+U18,codex,2a,1
+U22,codex,2a,1
+U28,codex,2a,1
+U30,codex,2a,1
+U34,codex-cli,2a,2a
