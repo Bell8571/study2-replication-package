@@ -2,8 +2,6 @@
 
 Companion package for: Jason Bell, *Static Configuration Exposure vs. Verified Runtime Outsider Reach in Public GitHub Actions Coding Agents (Study 2)*, 2026.
 
-> **Status: PRIVATE REVIEW DRAFT.** Built for the author's review before any public release.
-
 ## What the study is
 
 Study 2 asks how often untrusted outsider text (from issues, pull requests, comments, reviews, or fork-commit metadata) actually reached a write-capable or secret-holding AI coding agent in public GitHub Actions runs that had already executed. It also measures how much of the static-configuration exposure reported by earlier YAML-level work still shows up in this sample (RQ3, labelled as a replication). The sample is a seeded draw of **36 workflow units** with **135 harvested runs** (134 scorable). It covers the packaged Claude, Codex, and Gemini Actions plus a CLI contrast stratum.
@@ -14,6 +12,7 @@ The study was passive and used public data only. No writes were made to third-pa
 
 | Path | Contents |
 |---|---|
+| `paper/Study2_Bell.pdf` | Submitted manuscript (PDF). The paper describes individual units in prose; it does not use the package's U/R labels |
 | `docs/protocol/PROTOCOL-v1.0.md` | Frozen v1.0 protocol (byte-identical to the frozen file) |
 | `docs/protocol/ADDENDUM-02…`, `ADDENDUM-03…`, `ADDENDUM-04…` | Dated addenda (byte-identical) |
 | `docs/redacted/ADDENDUM-01-seeds.REDACTED.md` | **Redacted derivative** of Addendum 01. The seed strings are withheld (see below). |
@@ -71,6 +70,22 @@ The protocol (§12) commits the public write-up to aggregate reporting that neve
 ## Provenance
 
 The analysis was recorded in a private, append-only archive repository. Frozen files were never edited in place, and every correction was made through a new dated file. `PROVENANCE.md` cites four commits: `ba1881d` (Pass 1 IRR), `fc856e7` (Pass 2 IRR under Addendum 4), `ae059a4` (adjudication), and `cacd05b` (consistency ruling, final state). It gives the SHA-256 of every file at each of those commits, shows which ones are included here verbatim or as a redacted derivative, and confirms that the withheld coding sheets still match the checksums recorded at those commits. This package has its own history. The cited commits are references, not live commits in this repository.
+
+## How to cite
+
+> Jason Bell. *Static Configuration Exposure vs. Verified Runtime Outsider Reach in Public GitHub Actions Coding Agents (Study 2).* 2026. Manuscript, `paper/Study2_Bell.pdf`. Replication package: https://github.com/Bell8571/study2-replication-package
+
+```bibtex
+@misc{bell2026study2,
+  author       = {Jason Bell},
+  title        = {Static Configuration Exposure vs. Verified Runtime Outsider Reach in Public {GitHub} {Actions} Coding Agents ({Study} 2)},
+  year         = {2026},
+  howpublished = {Manuscript and replication package},
+  url          = {https://github.com/Bell8571/study2-replication-package}
+}
+```
+
+Once the paper has an arXiv identifier, cite that version.
 
 ## Licence
 

@@ -235,6 +235,11 @@ These sheets never entered any git history. The recorded value is the checksum w
 Also withheld (no checksum recorded in a commit): raw run logs and event payloads, the official sample and walk logs, the unit evidence cards, the adjudication CSVs, and the unit-label mapping created for this package.
 
 
+## Manuscript
+
+`paper/Study2_Bell.pdf` is the submitted manuscript version (7 pages, US Letter, pdfTeX), SHA-256 `7cc73a738dcc1ba12bc8470bbdfa1ad00dda2e50afaacb0e575229b6678ea3e8`. The 8-hex unit identifiers used in earlier drafts, which were prefixes of unsalted SHA-256 digests of repository/workflow paths, were replaced in the paper with prose descriptions. The package's `U01`–`U36` and `R001`–`R135` labels are random and are not used in the paper. The LaTeX source is not included.
+
+
 ## Files in this package
 
 | File | SHA-256 | Derived from |
@@ -242,7 +247,7 @@ Also withheld (no checksum recorded in a commit): raw run logs and event payload
 | `.gitignore` | `862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793` | authored for this package |
 | `LICENSE` | `a5110551c1504e40640f2ad7ea6e8f0d9a4e6fa595488750b57609a6517959fa` | authored for this package |
 | `LICENSE-DATA` | `421454365ca8dbc1e9aa0284f82c8b51b1d8125fbb2377a9f9db70601d5369a4` | authored for this package |
-| `README.md` | `796db05d3be23d31810646e0091584b18bfb8141035b81b3885971234b9d71b8` | authored for this package |
+| `README.md` | `f57757823997038a17dce5304685d7c70e2b2dbf3ed3ec7281d7f81c138c5d9c` | authored for this package |
 | `data/irr_pass1_runs.csv` | `9816b1454196dbf63a0f3dab2e0b1241e7d686ca3017e0c054c99b2f6db7409f` | LOCKED_v1 + blind coder v1 run sheet |
 | `data/irr_pass1_units.csv` | `0baa57ac26d1377e5129a35c4d5bdf9ebd0750a5e4098a9385cfa63a56fda574` | LOCKED_v1 + blind coder v1 unit sheet |
 | `data/irr_pass2_runs.csv` | `8661870daeaad9b7b7e2e1394453c7732c8d1ab988e031e3dd45276f6886f3f0` | LOCKED_v2 + blind coder v2 run sheet |
@@ -256,6 +261,7 @@ Also withheld (no checksum recorded in a commit): raw run logs and event payload
 | `docs/protocol/PROTOCOL-v1.0.md` | `6d47296879bf9f102ff76b5eb754a43f12a98e6b8bb170d50bece614d9372741` | see above |
 | `docs/protocol/TOOL-REFERENCE-SHEET.md` | `38e263e05a2aea418cfae6fc043cd591c7df4da76f257e86bf85b712eb4c7d34` | see above |
 | `docs/redacted/ADDENDUM-01-seeds.REDACTED.md` | `659fb29d507b7264dd96a8a7762a0edc1e065345037a499808a5cba5afbe443f` | see above |
+| `paper/Study2_Bell.pdf` | `7cc73a738dcc1ba12bc8470bbdfa1ad00dda2e50afaacb0e575229b6678ea3e8` | submitted manuscript version (PDF only; LaTeX source not included). Unit IDs in the paper were replaced with descriptions; this package uses the U/R labels |
 | `results/aggregates.json` | `8a582dc6cd33a168994f44530467d10a82410da86df17a18893a450610218b36` | scripts/reproduce_aggregates.py |
 | `results/irr_pass1.json` | `66294a996cc2d3e24b7fa0d9fc3d4604d63df810f1e46a1f5cf4a50f8f4b8202` | scripts/reproduce_irr.py |
 | `results/irr_pass2.json` | `5a4ff31e880b8e5f221129eab947fcdfe24529e5b4f5534561fdadb0c79fa589` | scripts/reproduce_irr.py |
